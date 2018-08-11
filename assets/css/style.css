@@ -1,0 +1,109 @@
+ .container-header { column-span: all;
+	width: 100%;
+ }
+ .container-body {
+	 margin-left: 10%;
+	 width: 960px;
+	 align-content: center
+ } 
+/* { width:auto !important; }  */
+body {
+		/* background-image: ; */
+		margin: 0;
+		padding: 0;
+}
+/* Heading Tags */
+h1 {
+	/* Put a 15-pixel margin at the bottom of the heading. */
+	margin-bottom: 15px;
+	/* Change the size of your font to 60 pixels high. */
+	font-size: 40px;
+	color: #4aaaa5;
+	text-align: left;
+	background-color: #ffffff;
+  }
+  /* h2 heading tags */
+   h2 {
+	/* Put a 15-pixel margin at the top of all h2 headings. */
+	/* margin-top: 15px;*/
+	margin-bottom: 15px;
+	font-size: 40px;
+	text-align: left;
+  }  
+  /* h3 heading tags */
+  
+  h3 {
+	margin-top: 15px;
+	font-size: 20px;
+	text-align: left;
+  }
+  
+  /* All img tags */
+  
+  img {
+	/* 
+			  Center a block element in the middle of its enclosing tag.
+			  When you use the "auto" rule on both left and right margins, 
+			  your browser will do the math necessary to center a block element.
+			  */
+	margin-left: auto;
+	margin-right: auto;
+	/* Block display (more on this later) */
+	display: inline-block;
+  }
+  /* All p tags */
+  
+  p {
+	text-align: left;
+	font-size: 20px;
+	/* Bold the text. */
+	/* font-weight: bold; */
+  }
+  /* All unordered list tags */
+  
+  ul {
+	text-align: center;
+	font-size: 35px;
+	/* Give an element a solid border. */
+	border-style: solid;
+	/* Render the border 5 pixels thick. */
+	border-width: 5px;
+	/* Include bullets in the content flow. */
+	/* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
+	list-style-position: inside;
+  }
+
+  body {
+	background-color: #ffffff;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p, li {
+	color: #777777;
+	/* font-size: 24px;*/
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+
+a { color: #03C; text-decoration: underline; cursor: pointer; 
+display: inline;}
+a:hover { text-decoration: underline; }
+/* wrapper {width: expression(document.body.clientWidth > 850 ? "850px" : (document.body.clientWidth < 571 ? "570px" : "94%"));
+} */
+.container-bottom{
+	width: 100%;
+	background-color: 666666;
+	position: fixed;
+    bottom: 0;
+	right: 0;
+	height: 20px;
+}
+
+#bottom {
+	width: 100%;
+	line-height: 3px;
+	background-color: #4aaaa5;
+}
